@@ -19,3 +19,5 @@ TODO :
 	* Slideshow images need rework, need to find good quality images and resize to 800 * 450px size
 	* Image 2.png is fine
 	* Image captions required
+	* Need to add proper content in all tabs
+	* Link to proper ISOs in  [ http://192.168.40.130/distros/Debian%20GNU%20Linux/Squeeze/ ] for download
