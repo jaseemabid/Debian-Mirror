@@ -6,5 +6,8 @@
 ;(function($, window){
 	$(document).ready(function(){
 		$('#navbar').scrollspy();	
+		$('div#screenshots').carousel({
+			interval: 2000
+		});
 	});
 })(jQuery,this);
