@@ -13,4 +13,4 @@
 	* Image 2.png is fine
 	* Image captions required
 	* Need to add proper content in all tabs
-	* Link to proper ISOs from (NITC Distro server)[ http://192.168.40.130/distros/Debian%20GNU%20Linux/Squeeze/ ] for download
+	* Link to proper ISOs from [NITC Distro server](http://192.168.40.130/distros/Debian%20GNU%20Linux/Squeeze/)for download
