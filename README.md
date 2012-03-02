@@ -17,6 +17,7 @@
 
 #### TODO ####
 	
+* Need to add last mirror update time. Get time from API.
 * Slideshow images need rework, need to find good quality images and resize to 800 * 450px size
 * Image 2.png is fine
 * Image captions required
