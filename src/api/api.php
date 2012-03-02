@@ -6,7 +6,7 @@
 	/**
 	* Global Variables
 	*/
-	$mirror_url	=	"http://localhost/debian/dists/unstable";
+	$mirror_url	=	"http://localhost/debian/dists/unstable/Release";
 	$timezone	=	'Asia/Kolkatta';
 	
 	//Server Default Time Zone Set
@@ -23,6 +23,8 @@
 	* Function Definition
 	*/
 	function getLastUpdateTimeJSON(){
+		global $mirror_url;
+		$s = file_get_contents($mirror_url);
 		$lu = explode("\n",file_get_contents($mirror_url));
 		$t = strtotime(substr($lu[4],5));
 		$d = date(DATE_RFC822,$t);
